@@ -1,0 +1,30 @@
+{
+  "name": "yengec/yengec",
+  "description": "Yengec Laravel SDK",
+  "authors": [
+    {
+      "name": "İbrahim Ş. Örencik",
+      "email": "o@yedincisenol.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "guzzlehttp/guzzle": "^6.3",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yengec\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Yengec\\LaravelServiceProvider"
+      ]
+    }
+  }
+}
